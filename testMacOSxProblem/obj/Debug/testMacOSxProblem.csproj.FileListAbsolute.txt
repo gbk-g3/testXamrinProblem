@@ -1,0 +1,14 @@
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/testMacOSxProblem.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/testMacOSxProblem.pdb
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Binding.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Core.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Localization.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Platform.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Platform.pdb
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Core.pdb
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Binding.pdb
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/bin/Debug/MvvmCross.Localization.pdb
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/obj/Debug/testMacOSxProblem.csprojResolveAssemblyReference.cache
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/obj/Debug/testMacOSxProblem.csproj.CoreCompileInputs.cache
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/obj/Debug/testMacOSxProblem.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/testMacOSxProblem/obj/Debug/testMacOSxProblem.pdb

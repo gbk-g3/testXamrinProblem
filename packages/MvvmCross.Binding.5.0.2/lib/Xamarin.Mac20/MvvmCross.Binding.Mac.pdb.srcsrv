@@ -1,0 +1,30 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\MvxMacBindingBuilder.cs*MvvmCross/Binding/Mac/MvxMacBindingBuilder.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\MvxMacPropertyBinding.cs*MvvmCross/Binding/Mac/MvxMacPropertyBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\MvxMacPropertyBindingExtensions.cs*MvvmCross/Binding/Mac/MvxMacPropertyBindingExtensions.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSViewVisibilityTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSViewVisibilityTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSViewVisibleTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSViewVisibleTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSSliderValueTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSSliderValueTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxBaseNSDatePickerTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxBaseNSDatePickerTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSDatePickerDateTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSDatePickerDateTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSDatePickerTimeTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSDatePickerTimeTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSTextFieldTextTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSTextFieldTextTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSTextViewTextTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSTextViewTextTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSButtonTitleTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSButtonTitleTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSSearchFieldTextTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSSearchFieldTextTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Views\IMvxBindable.cs*MvvmCross/Binding/Mac/Views/IMvxBindable.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Views\MvxView.cs*MvvmCross/Binding/Mac/Views/MvxView.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSSwitchOnTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSSwitchOnTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Views\MvxTableViewSource.cs*MvvmCross/Binding/Mac/Views/MvxTableViewSource.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Views\MvxTableCellView.cs*MvvmCross/Binding/Mac/Views/MvxTableCellView.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Views\MvxTableColumn.cs*MvvmCross/Binding/Mac/Views/MvxTableColumn.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxMacTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxMacTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Target\MvxNSSegmentedControlSelectedSegmentTargetBinding.cs*MvvmCross/Binding/Mac/Target/MvxNSSegmentedControlSelectedSegmentTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross\Binding\Mac\Properties\AssemblyInfo.cs*MvvmCross/Binding/Mac/Properties/AssemblyInfo.cs
+SRCSRV: end ------------------------------------------------

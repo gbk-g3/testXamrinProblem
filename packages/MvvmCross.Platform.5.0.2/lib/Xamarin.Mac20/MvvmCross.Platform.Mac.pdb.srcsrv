@@ -1,0 +1,12 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Mac\Properties\AssemblyInfo.cs*MvvmCross/Platform/Mac/Properties/AssemblyInfo.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Mac\Views\MvxEventSourceViewController.cs*MvvmCross/Platform/Mac/Views/MvxEventSourceViewController.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Mac\Views\IMvxEventSourceViewController.cs*MvvmCross/Platform/Mac/Views/IMvxEventSourceViewController.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Mac\Views\MvxBaseViewControllerAdapter.cs*MvvmCross/Platform/Mac/Views/MvxBaseViewControllerAdapter.cs
+SRCSRV: end ------------------------------------------------

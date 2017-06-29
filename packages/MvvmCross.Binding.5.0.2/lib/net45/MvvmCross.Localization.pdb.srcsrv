@@ -1,0 +1,14 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross\Core\Localization\IMvxLocalizedTextSourceOwner.cs*MvvmCross/Core/Localization/IMvxLocalizedTextSourceOwner.cs
+C:\vcs\git\MvvmCross\MvvmCross\Core\Localization\MvxLanguageConverter.cs*MvvmCross/Core/Localization/MvxLanguageConverter.cs
+C:\vcs\git\MvvmCross\MvvmCross\Core\Localization\IMvxLanguageBinder.cs*MvvmCross/Core/Localization/IMvxLanguageBinder.cs
+C:\vcs\git\MvvmCross\MvvmCross\Core\Localization\IMvxTextProvider.cs*MvvmCross/Core/Localization/IMvxTextProvider.cs
+C:\vcs\git\MvvmCross\MvvmCross\Core\Localization\Properties\AssemblyInfo.cs*MvvmCross/Core/Localization/Properties/AssemblyInfo.cs
+C:\vcs\git\MvvmCross\MvvmCross\Core\Localization\MvxLanguageBinder.cs*MvvmCross/Core/Localization/MvxLanguageBinder.cs
+SRCSRV: end ------------------------------------------------

@@ -1,0 +1,25 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Platform\IMvxIosSystem.cs*MvvmCross/Platform/iOS/Platform/IMvxIosSystem.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Platform\MvxIosMajorVersionChecker.cs*MvvmCross/Platform/iOS/Platform/MvxIosMajorVersionChecker.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Platform\MvxIosSystem.cs*MvvmCross/Platform/iOS/Platform/MvxIosSystem.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Platform\MvxIosVersion.cs*MvvmCross/Platform/iOS/Platform/MvxIosVersion.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Properties\AssemblyInfo.cs*MvvmCross/Platform/iOS/Properties/AssemblyInfo.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\IMvxIosModalHost.cs*MvvmCross/Platform/iOS/Views/IMvxIosModalHost.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\MvxIosColorExtensionMethods.cs*MvvmCross/Platform/iOS/MvxIosColorExtensionMethods.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\MvxIosDateTimeExtensionMethods.cs*MvvmCross/Platform/iOS/MvxIosDateTimeExtensionMethods.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\MvxIosUIViewControllerExtensions.cs*MvvmCross/Platform/iOS/MvxIosUIViewControllerExtensions.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Platform\MvxIosTask.cs*MvvmCross/Platform/iOS/Platform/MvxIosTask.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\MvxBaseViewControllerAdapter.cs*MvvmCross/Platform/iOS/Views/MvxBaseViewControllerAdapter.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\MvxEventSourceCollectionViewController.cs*MvvmCross/Platform/iOS/Views/MvxEventSourceCollectionViewController.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\MvxEventSourceTabBarController.cs*MvvmCross/Platform/iOS/Views/MvxEventSourceTabBarController.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\MvxEventSourceTableViewController.cs*MvvmCross/Platform/iOS/Views/MvxEventSourceTableViewController.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\MvxEventSourceViewController.cs*MvvmCross/Platform/iOS/Views/MvxEventSourceViewController.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\IMvxEventSourceViewController.cs*MvvmCross/Platform/iOS/Views/IMvxEventSourceViewController.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\iOS\Views\MvxEventSourcePageViewController.cs*MvvmCross/Platform/iOS/Views/MvxEventSourcePageViewController.cs
+SRCSRV: end ------------------------------------------------

@@ -1,0 +1,7 @@
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/libiOS/bin/Debug/libiOS.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/libiOS/bin/Debug/libiOS.pdb
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/libiOS/obj/Debug/optimized/
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/libiOS/obj/Debug/libiOS.csproj.CoreCompileInputs.cache
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/libiOS/obj/Debug/libiOS.dll
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/libiOS/obj/Debug/libiOS.pdb
+/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/libiOS/obj/Debug/libiOS.csprojResolveAssemblyReference.cache

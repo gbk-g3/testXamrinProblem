@@ -1,0 +1,4 @@
+testMacOSxProblem.Droid.MainActivity, testMacOSxProblem.Droid;md542453ff2e6c080502cf3c6fa4fe816fa.MainActivity
+testMacOSxProblem.Droid.MainActivity, testMacOSxProblem.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md542453ff2e6c080502cf3c6fa4fe816fa.MainActivity
+testMacOSxProblem.Droid.MainActivity;md542453ff2e6c080502cf3c6fa4fe816fa.MainActivity
+testmacosxproblem.droid.MainActivity;md542453ff2e6c080502cf3c6fa4fe816fa.MainActivity

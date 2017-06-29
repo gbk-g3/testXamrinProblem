@@ -1,0 +1,193 @@
+2017-06-29 12:31:39.441 macOS[61391:6387560] Unknown class ViewController in Interface Builder file at path /Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/macOS/bin/Debug/macOS.app/Contents/Resources/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib.
+2017-06-29 12:31:42.058 macOS[61391:6387560] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: '-[NSNib _initWithNibNamed:bundle:options:] could not load the nibName: MainView in bundle (null).'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00007fffb0cb82cb __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x00007fffc5ac348d objc_exception_throw + 48
+	2   CoreFoundation                      0x00007fffb0d36c3d +[NSException raise:format:] + 205
+	3   AppKit                              0x00007fffae7fe858 -[NSNib _initWithNibNamed:bundle:options:] + 669
+	4   AppKit                              0x00007fffae7fe56b -[NSViewController _nibWithName:bundle:] + 182
+	5   AppKit                              0x00007fffae7fe16a -[NSViewController loadView] + 132
+	6   macOS                               0x000000010ade89cc xamarin_dyn_objc_msgSendSuper + 220
+	7   ???                                 0x0000000115c1b1be 0x0 + 4659982782
+	8   macOS                               0x000000010aedce84 mono_jit_runtime_invoke + 1316
+	9   macOS                               0x000000010afa27c8 do_runtime_invoke + 88
+	10  macOS                               0x000000010afa2740 mono_runtime_invoke + 208
+	11  macOS                               0x000000010ade6225 xamarin_invoke_trampoline + 5589
+	12  macOS                               0x000000010ade735d xamarin_arch_trampoline + 189
+	13  macOS                               0x000000010ade8721 xamarin_x86_64_common_trampoline + 110
+	14  AppKit                              0x00007fffae76eae6 -[NSViewController _loadViewIfRequired] + 75
+	15  AppKit                              0x00007fffae76ea51 -[NSViewController view] + 30
+	16  macOS                               0x000000010ade89cc xamarin_dyn_objc_msgSendSuper + 220
+	17  ???                                 0x000000010f2e1c86 0x0 + 4549647494
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+Stacktrace:
+
+  at <unknown> <0xffffffff>
+  at (wrapper managed-to-native) ObjCRuntime.Messaging.void_objc_msgSendSuper (intptr,intptr) [0x0000a] in <4854fe53020c4281a4c744206a36350a>:0
+  at AppKit.NSViewController.LoadView () [0x00034] in /Users/builder/data/lanes/4691/d2270eec/source/xamarin-macios/src/build/mac/mobile/AppKit/NSViewController.g.cs:418
+  at MvvmCross.Platform.Mac.Views.MvxEventSourceViewController.LoadView () [0x00001] in <bc83372ab00243a6bfebf1680b335a2c>:0
+  at (wrapper runtime-invoke) object.runtime_invoke_void__this__ (object,intptr,intptr,intptr) [0x0004f] in <9fcf1f69c7d546f08f4bd01e41d7c049>:0
+  at <unknown> <0xffffffff>
+  at (wrapper managed-to-native) ObjCRuntime.Messaging.IntPtr_objc_msgSendSuper (intptr,intptr) [0x0000a] in <4854fe53020c4281a4c744206a36350a>:0
+  at AppKit.NSViewController.get_View () [0x0003a] in /Users/builder/data/lanes/4691/d2270eec/source/xamarin-macios/src/build/mac/mobile/AppKit/NSViewController.g.cs:1141
+  at MvvmCross.Mac.Views.Presenters.MvxMacViewPresenter.Show (AppKit.NSViewController,MvvmCross.Core.ViewModels.MvxViewModelRequest) [0x0003c] in <d6b3e3adc2eb40b0a3dc06be910d18de>:0
+  at MvvmCross.Mac.Views.Presenters.MvxMacViewPresenter.Show (MvvmCross.Mac.Views.IMvxMacView,MvvmCross.Core.ViewModels.MvxViewModelRequest) [0x00018] in <d6b3e3adc2eb40b0a3dc06be910d18de>:0
+  at MvvmCross.Mac.Views.Presenters.MvxMacViewPresenter.Show (MvvmCross.Core.ViewModels.MvxViewModelRequest) [0x0000b] in <d6b3e3adc2eb40b0a3dc06be910d18de>:0
+  at MvvmCross.Mac.Views.MvxMacViewDispatcher/<>c__DisplayClass2_0.<ShowViewModel>b__0 () [0x00025] in <d6b3e3adc2eb40b0a3dc06be910d18de>:0
+  at MvvmCross.Mac.Views.MvxMacUIThreadDispatcher.RequestMainThreadAction (System.Action) [0x00020] in <d6b3e3adc2eb40b0a3dc06be910d18de>:0
+  at MvvmCross.Mac.Views.MvxMacViewDispatcher.ShowViewModel (MvvmCross.Core.ViewModels.MvxViewModelRequest) [0x00023] in <d6b3e3adc2eb40b0a3dc06be910d18de>:0
+  at MvvmCross.Core.ViewModels.MvxNavigatingObject.ShowViewModelImpl (System.Type,MvvmCross.Core.ViewModels.IMvxBundle,MvvmCross.Core.ViewModels.IMvxBundle) [0x0002c] in <21e691ea08104cc0a33e0dc4c4f98c10>:0
+  at MvvmCross.Core.ViewModels.MvxNavigatingObject.ShowViewModel (System.Type,MvvmCross.Core.ViewModels.IMvxBundle,MvvmCross.Core.ViewModels.IMvxBundle) [0x00004] in <21e691ea08104cc0a33e0dc4c4f98c10>:0
+  at MvvmCross.Core.ViewModels.MvxNavigatingObject.ShowViewModel<TViewModel_REF> (MvvmCross.Core.ViewModels.IMvxBundle,MvvmCross.Core.ViewModels.IMvxBundle) [0x0000d] in <21e691ea08104cc0a33e0dc4c4f98c10>:0
+  at MvvmCross.Core.ViewModels.MvxAppStart`1<TViewModel_REF>.Start (object) [0x00016] in <21e691ea08104cc0a33e0dc4c4f98c10>:0
+  at Ringorang.macOS.AppDelegate.DidFinishLaunching (Foundation.NSNotification) [0x00047] in /Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/macOS/AppDelegate.cs:25
+  at (wrapper runtime-invoke) <Module>.runtime_invoke_void__this___object (object,intptr,intptr,intptr) [0x00053] in <af27e59314e9402cb717f4dd86833f03>:0
+  at <unknown> <0xffffffff>
+  at (wrapper managed-to-native) AppKit.NSApplication.NSApplicationMain (int,string[]) [0x0005a] in <4854fe53020c4281a4c744206a36350a>:0
+  at AppKit.NSApplication.Main (string[]) [0x00041] in /Users/builder/data/lanes/4691/d2270eec/source/xamarin-macios/src/AppKit/NSApplication.cs:99
+  at macOS.MainClass.Main (string[]) [0x00007] in /Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/macOS/Main.cs:10
+  at (wrapper runtime-invoke) <Module>.runtime_invoke_void_object (object,intptr,intptr,intptr) [0x00051] in <af27e59314e9402cb717f4dd86833f03>:0
+
+Native stacktrace:
+
+	0   macOS                               0x000000010aeccbd5 mono_handle_native_crash + 277
+	1   libsystem_platform.dylib            0x00007fffc65b7b3a _sigtramp + 26
+	2   ???                                 0x00000003cf2a6240 0x0 + 16360563264
+	3   libsystem_c.dylib                   0x00007fffc643c420 abort + 129
+	4   libc++abi.dylib                     0x00007fffc4f9284a __cxa_bad_cast + 0
+	5   libc++abi.dylib                     0x00007fffc4fb7c4f _ZL26default_unexpected_handlerv + 0
+	6   libobjc.A.dylib                     0x00007fffc5ac56fe _ZL15_objc_terminatev + 103
+	7   libc++abi.dylib                     0x00007fffc4fb4d69 _ZSt11__terminatePFvvE + 8
+	8   libc++abi.dylib                     0x00007fffc4fb47de _ZN10__cxxabiv1L22exception_cleanup_funcE19_Unwind_Reason_CodeP17_Unwind_Exception + 0
+	9   libobjc.A.dylib                     0x00007fffc5ac35b6 objc_exception_throw + 345
+	10  macOS                               0x000000010ade28b0 xamarin_process_nsexception_using_mode + 272
+	11  macOS                               0x000000010ade2797 xamarin_process_nsexception + 23
+	12  macOS                               0x000000010ade89fc xamarin_dyn_objc_msgSendSuper + 268
+	13  ???                                 0x0000000115c1b1be 0x0 + 4659982782
+	14  macOS                               0x000000010aedce84 mono_jit_runtime_invoke + 1316
+	15  macOS                               0x000000010afa27c8 do_runtime_invoke + 88
+	16  macOS                               0x000000010afa2740 mono_runtime_invoke + 208
+	17  macOS                               0x000000010ade6225 xamarin_invoke_trampoline + 5589
+	18  macOS                               0x000000010ade735d xamarin_arch_trampoline + 189
+	19  macOS                               0x000000010ade8721 xamarin_x86_64_common_trampoline + 110
+	20  AppKit                              0x00007fffae76eae6 -[NSViewController _loadViewIfRequired] + 75
+	21  AppKit                              0x00007fffae76ea51 -[NSViewController view] + 30
+	22  macOS                               0x000000010ade89cc xamarin_dyn_objc_msgSendSuper + 220
+	23  ???                                 0x000000010f2e1c86 0x0 + 4549647494
+
+Debug info from gdb:
+
+(lldb) command source -s 0 '/tmp/mono-gdb-commands.0IZp6K'
+Executing commands in '/tmp/mono-gdb-commands.0IZp6K'.
+(lldb) process attach --pid 61391
+Process 61391 stopped
+* thread #1, name = 'tid_307', queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
+    frame #0: 0x00007fffc64d73ee libsystem_kernel.dylib`__wait4 + 10
+libsystem_kernel.dylib`__wait4:
+->  0x7fffc64d73ee <+10>: jae    0x7fffc64d73f8            ; <+20>
+    0x7fffc64d73f0 <+12>: movq   %rax, %rdi
+    0x7fffc64d73f3 <+15>: jmp    0x7fffc64cfcd4            ; cerror
+    0x7fffc64d73f8 <+20>: retq   
+
+Executable module set to "/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/macOS/bin/Debug/macOS.app/Contents/MacOS/macOS".
+Architecture set to: x86_64h-apple-macosx.
+(lldb) thread list
+Process 61391 stopped
+* thread #1: tid = 0x617768, 0x00007fffc64d73ee libsystem_kernel.dylib`__wait4 + 10, name = 'tid_307', queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
+  thread #2: tid = 0x617773, 0x00007fffc64d744e libsystem_kernel.dylib`__workq_kernreturn + 10
+  thread #3: tid = 0x617774, 0x00007fffc64d744e libsystem_kernel.dylib`__workq_kernreturn + 10
+  thread #4: tid = 0x617775, 0x00007fffc64d744e libsystem_kernel.dylib`__workq_kernreturn + 10
+  thread #5: tid = 0x617779, 0x00007fffc64d6bf2 libsystem_kernel.dylib`__psynch_cvwait + 10, name = 'SGen worker'
+  thread #6: tid = 0x61777b, 0x00007fffc64cf386 libsystem_kernel.dylib`semaphore_wait_trap + 10, name = 'Finalizer'
+  thread #7: tid = 0x61777c, 0x00007fffc64d6df6 libsystem_kernel.dylib`__recvfrom + 10, name = 'Debugger agent'
+  thread #8: tid = 0x617791, 0x00007fffc64d744e libsystem_kernel.dylib`__workq_kernreturn + 10
+(lldb) thread backtrace all
+* thread #1, name = 'tid_307', queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
+  * frame #0: 0x00007fffc64d73ee libsystem_kernel.dylib`__wait4 + 10
+    frame #1: 0x000000010aeccc6e macOS`mono_handle_native_crash(signal=<unavailable>, ctx=<unavailable>, info=<unavailable>) at mini-exceptions.c:2567 [opt]
+    frame #2: 0x00007fffc65b7b3a libsystem_platform.dylib`_sigtramp + 26
+    frame #3: 0x00007fffc64d6d43 libsystem_kernel.dylib`__pthread_kill + 11
+    frame #4: 0x00007fffc65c4457 libsystem_pthread.dylib`pthread_kill + 90
+    frame #5: 0x00007fffc643c420 libsystem_c.dylib`abort + 129
+    frame #6: 0x00007fffc4f9284a libc++abi.dylib`abort_message + 266
+    frame #7: 0x00007fffc4fb7c4f libc++abi.dylib`default_terminate_handler() + 267
+    frame #8: 0x00007fffc5ac56fe libobjc.A.dylib`_objc_terminate() + 103
+    frame #9: 0x00007fffc4fb4d69 libc++abi.dylib`std::__terminate(void (*)()) + 8
+    frame #10: 0x00007fffc4fb47de libc++abi.dylib`__cxa_throw + 121
+    frame #11: 0x00007fffc5ac35b6 libobjc.A.dylib`objc_exception_throw + 345
+    frame #12: 0x000000010ade28b0 macOS`::xamarin_process_nsexception_using_mode(ns_exception=name: "NSInternalInconsistencyException" - reason: "-[NSNib _initWithNibNamed:bundle:options:] could not load the nibName: MainView in bundle (null).", throwManagedAsDefault=false) at runtime.m:1993
+    frame #13: 0x000000010ade2797 macOS`::xamarin_process_nsexception(ns_exception=name: "NSInternalInconsistencyException" - reason: "-[NSNib _initWithNibNamed:bundle:options:] could not load the nibName: MainView in bundle (null).") at runtime.m:1967
+    frame #14: 0x000000010ade89fc macOS`xamarin_dyn_objc_msgSendSuper + 268
+    frame #15: 0x0000000115c1b1be
+    frame #16: 0x000000010aedce84 macOS`mono_jit_runtime_invoke(method=<unavailable>, obj=<unavailable>, params=0x00007fff54e35e60, exc=0x00007fffaf365b03, error=<unavailable>) at mini-runtime.c:2533 [opt]
+    frame #17: 0x000000010afa27c8 macOS`do_runtime_invoke(method=0x00007ff68e0ab8a0, obj=0x000000010b97f950, params=0x00007fff54e35e60, exc=0x0000000000000000, error=0x00007fff54e35dc8) at object.c:2860 [opt]
+    frame #18: 0x000000010afa2740 macOS`mono_runtime_invoke [inlined] mono_runtime_invoke_checked(method=<unavailable>, obj=0x000000010b97f950, params=0x00007fff54e35e60, error=0x00007fff54e35dc8) at object.c:3018 [opt]
+    frame #19: 0x000000010afa2701 macOS`mono_runtime_invoke(method=0x00007ff68e0ab8a0, obj=0x000000010b97f950, params=0x00007fff54e35e60, exc=<unavailable>) at object.c:2917 [opt]
+    frame #20: 0x000000010ade6225 macOS`::xamarin_invoke_trampoline(type=Tramp_Default, self=0x00006080004d2fa0, sel="loadView", iterator=(macOS`param_iter_next(IteratorAction, void*, char const*, unsigned long, void*, unsigned int*) at trampolines-x86_64.m:236), marshal_return_value=(macOS`marshal_return_value(void*, char const*, unsigned long, void*, _MonoType*, bool, _MonoMethod*, unsigned int*) at trampolines-x86_64.m:302), context=0x00007fff54e36358) at trampolines-invoke.m:442
+    frame #21: 0x000000010ade735d macOS`::xamarin_arch_trampoline(state=0x00007fff54e363a0) at trampolines-x86_64.m:540
+    frame #22: 0x000000010ade8721 macOS`xamarin_x86_64_common_trampoline + 110
+    frame #23: 0x00007fffae76eae6 AppKit`-[NSViewController _loadViewIfRequired] + 75
+    frame #24: 0x00007fffae76ea51 AppKit`-[NSViewController view] + 30
+    frame #25: 0x000000010ade89cc macOS`xamarin_dyn_objc_msgSendSuper + 220
+    frame #26: 0x000000010f2e1c86
+
+  thread #2
+    frame #0: 0x00007fffc64d744e libsystem_kernel.dylib`__workq_kernreturn + 10
+    frame #1: 0x00007fffc65c1621 libsystem_pthread.dylib`_pthread_wqthread + 1426
+    frame #2: 0x00007fffc65c107d libsystem_pthread.dylib`start_wqthread + 13
+
+  thread #3
+    frame #0: 0x00007fffc64d744e libsystem_kernel.dylib`__workq_kernreturn + 10
+    frame #1: 0x00007fffc65c148e libsystem_pthread.dylib`_pthread_wqthread + 1023
+    frame #2: 0x00007fffc65c107d libsystem_pthread.dylib`start_wqthread + 13
+
+  thread #4
+    frame #0: 0x00007fffc64d744e libsystem_kernel.dylib`__workq_kernreturn + 10
+    frame #1: 0x00007fffc65c1621 libsystem_pthread.dylib`_pthread_wqthread + 1426
+    frame #2: 0x00007fffc65c107d libsystem_pthread.dylib`start_wqthread + 13
+
+  thread #5, name = 'SGen worker'
+    frame #0: 0x00007fffc64d6bf2 libsystem_kernel.dylib`__psynch_cvwait + 10
+    frame #1: 0x00007fffc65c27fa libsystem_pthread.dylib`_pthread_cond_wait + 712
+    frame #2: 0x000000010b05b8de macOS`thread_func [inlined] mono_os_cond_wait(mutex=<unavailable>) at mono-os-mutex.h:146 [opt]
+    frame #3: 0x000000010b05b8cb macOS`thread_func(thread_data=0x0000000000000000) at sgen-thread-pool.c:129 [opt]
+    frame #4: 0x00007fffc65c193b libsystem_pthread.dylib`_pthread_body + 180
+    frame #5: 0x00007fffc65c1887 libsystem_pthread.dylib`_pthread_start + 286
+    frame #6: 0x00007fffc65c108d libsystem_pthread.dylib`thread_start + 13
+
+  thread #6, name = 'Finalizer'
+    frame #0: 0x00007fffc64cf386 libsystem_kernel.dylib`semaphore_wait_trap + 10
+    frame #1: 0x000000010af3f11f macOS`finalizer_thread [inlined] mono_os_sem_wait(flags=MONO_SEM_FLAGS_ALERTABLE) at mono-os-semaphore.h:90 [opt]
+    frame #2: 0x000000010af3f114 macOS`finalizer_thread at mono-coop-semaphore.h:40 [opt]
+    frame #3: 0x000000010af3f108 macOS`finalizer_thread(unused=<unavailable>) at gc.c:907 [opt]
+    frame #4: 0x000000010afedc00 macOS`start_wrapper [inlined] start_wrapper_internal at threads.c:837 [opt]
+    frame #5: 0x000000010afedae5 macOS`start_wrapper(data=0x000060000006a680) at threads.c:889 [opt]
+    frame #6: 0x000000010b0732cd macOS`inner_start_thread(data=0x0000600000042850) at mono-threads.c:1170 [opt]
+    frame #7: 0x00007fffc65c193b libsystem_pthread.dylib`_pthread_body + 180
+    frame #8: 0x00007fffc65c1887 libsystem_pthread.dylib`_pthread_start + 286
+    frame #9: 0x00007fffc65c108d libsystem_pthread.dylib`thread_start + 13
+
+  thread #7, name = 'Debugger agent'
+    frame #0: 0x00007fffc64d6df6 libsystem_kernel.dylib`__recvfrom + 10
+    frame #1: 0x000000010ae37d5e macOS`socket_transport_recv(buf=0x00007000010f2ce5, len=11) at debugger-agent.c:1143 [opt]
+    frame #2: 0x000000010ae22166 macOS`debugger_thread [inlined] transport_recv(len=11) at debugger-agent.c:1549 [opt]
+    frame #3: 0x000000010ae22150 macOS`debugger_thread(arg=<unavailable>) at debugger-agent.c:10157 [opt]
+    frame #4: 0x000000010b0732cd macOS`inner_start_thread(data=0x0000600000042910) at mono-threads.c:1170 [opt]
+    frame #5: 0x00007fffc65c193b libsystem_pthread.dylib`_pthread_body + 180
+    frame #6: 0x00007fffc65c1887 libsystem_pthread.dylib`_pthread_start + 286
+    frame #7: 0x00007fffc65c108d libsystem_pthread.dylib`thread_start + 13
+
+  thread #8
+    frame #0: 0x00007fffc65c1070 libsystem_pthread.dylib`start_wqthread
+(lldb) detach
+
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+Process 61391 detached
+(lldb) quit

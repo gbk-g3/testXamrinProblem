@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{02F57472-9C0E-4C9E-985B-32C9CEB95684}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="libiOS/libmacOS/MainView/MainViewController.cs">
+    <Files>
+      <File FileName="macOS/Setup.cs" Line="27" Column="6" />
+      <File FileName="macOS/Main.cs" Line="1" Column="14" />
+      <File FileName="macOS/Info.plist" />
+      <File FileName="macOS/AppDelegate.cs" Line="25" Column="1" />
+      <File FileName="libiOS/libmacOS/MainView/MainViewController.cs" Line="12" Column="71" />
+      <File FileName="libiOS/libmacOS/Setup.cs" Line="29" Column="1" />
+      <File FileName="libiOS/libmacOS/DebugTrance.cs" Line="29" Column="1" />
+      <File FileName="testMacOSxProblem/MainViewModel.cs" Line="24" Column="17" />
+      <File FileName="testMacOSxProblem/App.cs" Line="3" Column="28" />
+      <File FileName="testMacOSxProblem/BaseViewModel.cs" Line="13" Column="1" />
+      <File FileName="libiOS/libmacOS/BaseViewController.cs" Line="3" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kirillgorbushko/Desktop/TestProject/testMacOSxProblem/macOS/AppDelegate.cs" relfile="macOS/AppDelegate.cs" line="19" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.wl.macOS PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.ItemProperties.wl.testMacOSxProblem.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A9D0F72B-AF1F-4D64-AB40-B399850D7E98" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,30 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Platform\IMvxAndroidCurrentTopActivity.cs*MvvmCross/Platform/Droid/Platform/IMvxAndroidCurrentTopActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\IMvxAndroidGlobals.cs*MvvmCross/Platform/Droid/IMvxAndroidGlobals.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\MvxJavaContainer.cs*MvvmCross/Platform/Droid/MvxJavaContainer.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\MvxReplaceableJavaContainer.cs*MvvmCross/Platform/Droid/MvxReplaceableJavaContainer.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Platform\MvxAndroidTask.cs*MvvmCross/Platform/Droid/Platform/MvxAndroidTask.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Platform\MvxDateTimeExtensionMethods.cs*MvvmCross/Platform/Droid/Platform/MvxDateTimeExtensionMethods.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Platform\MvxIntentResultSink.cs*MvvmCross/Platform/Droid/Platform/MvxIntentResultSink.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Platform\MvxJavaDateUtils.cs*MvvmCross/Platform/Droid/Platform/MvxJavaDateUtils.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Properties\AssemblyInfo.cs*MvvmCross/Platform/Droid/Properties/AssemblyInfo.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Platform\IMvxIntentResultSink.cs*MvvmCross/Platform/Droid/Platform/IMvxIntentResultSink.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Platform\IMvxIntentResultSource.cs*MvvmCross/Platform/Droid/Platform/IMvxIntentResultSource.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\IMvxStartActivityForResult.cs*MvvmCross/Platform/Droid/Views/IMvxStartActivityForResult.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\MvxActivityResultParameters.cs*MvvmCross/Platform/Droid/Views/MvxActivityResultParameters.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\MvxBaseActivityAdapter.cs*MvvmCross/Platform/Droid/Views/MvxBaseActivityAdapter.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\MvxEventSourceActivity.cs*MvvmCross/Platform/Droid/Views/MvxEventSourceActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\MvxEventSourceTabActivity.cs*MvvmCross/Platform/Droid/Views/MvxEventSourceTabActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\IMvxEventSourceActivity.cs*MvvmCross/Platform/Droid/Views/IMvxEventSourceActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\MvxIntentRequestCode.cs*MvvmCross/Platform/Droid/Views/MvxIntentRequestCode.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\MvxIntentResultEventArgs.cs*MvvmCross/Platform/Droid/Views/MvxIntentResultEventArgs.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\Views\MvxStartActivityForResultParameters.cs*MvvmCross/Platform/Droid/Views/MvxStartActivityForResultParameters.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\WeakSubscription\MvxAndroidTargetEventSubscription.cs*MvvmCross/Platform/Droid/WeakSubscription/MvxAndroidTargetEventSubscription.cs
+C:\vcs\git\MvvmCross\MvvmCross\Platform\Droid\WeakSubscription\MvxAndroidWeakSubscriptionExtensionMethods.cs*MvvmCross/Platform/Droid/WeakSubscription/MvxAndroidWeakSubscriptionExtensionMethods.cs
+SRCSRV: end ------------------------------------------------
